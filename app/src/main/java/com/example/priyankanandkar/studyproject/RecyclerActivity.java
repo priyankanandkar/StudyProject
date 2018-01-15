@@ -33,7 +33,7 @@ public class RecyclerActivity extends AppCompatActivity {
         txtUsername.setText(""+prefManager.getLoginName());
 
         if (API_KEY.isEmpty()){
-            Toast.makeText(getApplicationContext(), "Please obtain your API KEY first", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "obtain your API KEY first", Toast.LENGTH_LONG).show();
             return;
         }
 
